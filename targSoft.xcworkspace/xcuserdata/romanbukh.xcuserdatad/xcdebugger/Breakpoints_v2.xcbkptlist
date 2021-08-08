@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DF25E765-BE6F-4146-B87F-7F8A6DEB3FD2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57CEAE4C-280C-40B2-B211-D81A15D13496"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "targSoft/Services/CatsLocalDataFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchCats(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70920BDB-5326-4B93-81F1-CBB5CAAAB1BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "targSoft/Services/CatsStorageService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "dbQueue"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "70920BDB-5326-4B93-81F1-CBB5CAAAB1BF - 3168544e4af04fe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; GRDB.DatabaseQueue in variable initialization expression of static targSoft.CatsStorageService.dbQueue : GRDB.DatabaseQueue"
+                  moduleName = "targSoft"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanbukh/Docs/Xcode%20projects/targSoft/targSoft/Services/CatsStorageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1028">
+               </Location>
+               <Location
+                  uuid = "70920BDB-5326-4B93-81F1-CBB5CAAAB1BF - 5f0cdd1ddb81bbfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GRDB.Database) throws -&gt; () in closure #1 () -&gt; GRDB.DatabaseQueue in variable initialization expression of static targSoft.CatsStorageService.dbQueue : GRDB.DatabaseQueue"
+                  moduleName = "targSoft"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanbukh/Docs/Xcode%20projects/targSoft/targSoft/Services/CatsStorageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
