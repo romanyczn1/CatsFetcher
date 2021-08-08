@@ -8,10 +8,10 @@
 import UIKit
 
 class TabBarCoordinator: Coordinator {
-    let navigationController: UINavigationController
+    weak var window: UIWindow?
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    init(window: UIWindow) {
+        self.window = window
     }
     
     func start() {
@@ -28,8 +28,8 @@ class TabBarCoordinator: Coordinator {
         tabBarController.viewControllers = [catsNavigationController,
                                             favoritesNavigationController]
         
-        tabBarController.modalPresentationStyle = .fullScreen
-        navigationController.present(tabBarController, animated: true, completion: nil)
+        window!.rootViewController = tabBarController
+        window!.makeKeyAndVisible()
         
         coordinate(to: catsCoordinator)
         coordinate(to: favoritesCoordinator)

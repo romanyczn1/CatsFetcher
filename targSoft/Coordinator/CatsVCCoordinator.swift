@@ -8,7 +8,7 @@
 import UIKit
 
 class CastViewControllerCoordinator: Coordinator {
-    let navigationController: UINavigationController
+    weak var navigationController: UINavigationController?
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
@@ -16,6 +16,6 @@ class CastViewControllerCoordinator: Coordinator {
     
     func start() {
         let catsViewController = CatsViewController()
-        navigationController.pushViewController(catsViewController, animated: true)
+        navigationController?.pushViewController(catsViewController, animated: true)
     }
 }

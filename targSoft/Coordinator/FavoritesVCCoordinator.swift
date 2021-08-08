@@ -8,7 +8,7 @@
 import UIKit
 
 class FavoritesViewControllerCoordinator: Coordinator {
-    let navigationController: UINavigationController
+    weak var navigationController: UINavigationController?
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
@@ -16,6 +16,6 @@ class FavoritesViewControllerCoordinator: Coordinator {
     
     func start() {
         let favoritesViewController = FavoritesViewController()
-        navigationController.pushViewController(favoritesViewController, animated: true)
+        navigationController?.pushViewController(favoritesViewController, animated: true)
     }
 }
